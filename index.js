@@ -46,7 +46,7 @@ app.get("/create-recipes-data", function (req, res) {
 
 ///////////////////////////////////////////////////////////
 
-app.get("/recpies", function (req, res) {
+app.get("/recpies" ,function (req, res) {
   fs.readFile(
     __dirname + "/" + "recipes" + ".json",
     "utf8",
@@ -112,8 +112,9 @@ app.get("/*", (req, res) => {
   // return;
   res.sendFile(path.resolve(__dirname, "frontend", "index.html"));
 });
+
 ///////////////////////////////////////////////////////////
 app.listen(PORT || 4001, () => {
   console.log("Server running on port", PORT);
-  // startup()
+  //initialize()
 });

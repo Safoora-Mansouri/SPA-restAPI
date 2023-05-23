@@ -31,3 +31,19 @@ console.log({ recipes });
     return ` <h1>List of 50 Random Recipies</h1>` + listPosts;
   }
 }
+
+// const vehicles = ["mustang", "f-150", "expedition"];
+// // à l'ancienne
+// const car = vehicles[0];
+// const truck = vehicles[1];
+// const suv = vehicles[2];
+
+
+// const [car1, truck1, suv1]=vehicles;
+
+// const profile={fn:"zahra", ln:"Yazdani",age:34}
+// // const fn= profile.fn;
+// // const ln= profile.ln;
+// // const age = profile.age;
+
+// const {fn, ln, age}= profile;
